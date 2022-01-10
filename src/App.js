@@ -1,13 +1,13 @@
 import './App.css';
 import Header from './components/Header';
-import Nav from './components/Nav';
+import NavigatePortfolio from './components/Nav/NavigatePortfolio';
 import Footer from './components/Footer';
 
 function App() {
   return (
     <div>
       <Header></Header>
-      <Nav></Nav>
+      <NavigatePortfolio></NavigatePortfolio>
       <Footer></Footer>
     </div>
   );
