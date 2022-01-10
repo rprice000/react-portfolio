@@ -8,7 +8,7 @@ function Nav() {
 
           <li>
             
-            Home
+           Home
           
           </li>
 
