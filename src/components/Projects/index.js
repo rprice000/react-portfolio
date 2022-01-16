@@ -2,13 +2,13 @@ import React from 'react';
 
 const Projects = () => {
     return (
-      <section class="portfolio" id="my-portfolio">
+      <section className="portfolio" id="my-portfolio">
         <h2>My Portfolio</h2>
 
-        <div class="items">
+        <div className="items">
           <a
             href="https://rprice000.github.io/run-buddy/"
-            class="portfolio-item"
+            className="portfolio-item"
             id="run-buddy"
           >
             <div>Project Run Buddy</div>
@@ -16,7 +16,7 @@ const Projects = () => {
 
           <a
             href="https://rprice000.github.io/refactor/"
-            class="portfolio-item"
+            className="portfolio-item"
             id="refactor"
           >
             <div>Project Refactor</div>
@@ -27,16 +27,16 @@ const Projects = () => {
           </a>
         </div>
 
-        <div class="items">
-          <a href="" class="portfolio-item" id="future-project">
+        <div className="items">
+          <a href="" className="portfolio-item" id="future-project">
             <div>Future Project B</div>
           </a>
 
-          <a href="" class="portfolio-item" id="future-project">
+          <a href="" className="portfolio-item" id="future-project">
             <div>Future Project C</div>
           </a>
 
-          <a href="" class="portfolio-item" id="future-project">
+          <a href="" className="portfolio-item" id="future-project">
             <div>Future Project D</div>
           </a>
         </div>

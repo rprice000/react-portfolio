@@ -49,7 +49,7 @@ ul {
 
 
 /* FOR ALL SECTIONS STYLING START */
-section {
+/* section {
   padding: 50px 0;
   display: flex;
   flex-direction: column;
@@ -69,15 +69,29 @@ section div {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-}
+} */
 /* FOR ALL SECTIONS STYLING END */
 
 
 /* PORTFOLIO SECTION STYLING START */
 .portfolio {
   background-color: var(--third-color);
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
+.portfolio h2 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.portfolio div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 .portfolio-item {
   border: 5px solid var(--fifth-color);
   border-radius: 25%;
@@ -123,3 +137,45 @@ section div {
   background-repeat: no-repeat;
 }
 /* PORTFOLIO SECTION STYLING END */
+
+
+
+/* CONTACT SECTION STYLING START */
+.contact {
+  background-color: var(--third-color);
+  padding: 50px 0;
+}
+
+.contact h2 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+form {
+  width: 40%;
+ 
+}
+
+.form-div {
+  display: flex;
+  justify-content: center;
+} 
+
+input {
+  font-size: 1rem;
+  margin: 7px;
+  padding: 2.5px;
+  border: 2px solid var(--fifth-color);
+  outline: none;
+  border-radius: 3px;
+}
+
+textarea {
+	width: 600px;
+	height: 120px;
+	border: 2px solid var(--fifth-color);
+	padding: 5px;
+}
+
+
+/* CONTACT SECTION STYLING END */
