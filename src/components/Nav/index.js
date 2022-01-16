@@ -1,18 +1,21 @@
 import React from 'react';
-
+import Header from '../Header/index';
 
 function Nav(props) {
     const tabs = ['Home', 'About', 'Projects', 'Contact'];
 
     return (
+      <div id="page-header">
+        <Header />
+
         <ul>
-          {tabs.map(tab => (
+          {tabs.map((tab) => (
             <li key={tab}>
               <a
-                href={'#' + tab.toLowerCase()}
+                href={"#" + tab.toLowerCase()}
                 onClick={() => props.handlePageChange(tab)}
                 className={
-                  props.currentPage === tab ? 'nav-link active' : 'nav-link'
+                  props.currentPage === tab ? "nav-link active" : "nav-link"
                 }
               >
                 {tab}
@@ -20,7 +23,8 @@ function Nav(props) {
             </li>
           ))}
         </ul>
-      );
+      </div>
+    );
 
 
 
@@ -29,35 +33,3 @@ function Nav(props) {
 export default Nav;
 
 
-
-// return (
-//     <nav>
-//     <ul>
-
-//       <li>
-        
-//        Home
-      
-//       </li>
-
-//       <li>
-        
-//           About
-        
-//       </li>
-
-//       <li>
-        
-//           Projects
-        
-//       </li>
-
-//       <li>
-        
-//           Contact
-        
-//       </li>
-
-//     </ul>
-//   </nav>
-// )
