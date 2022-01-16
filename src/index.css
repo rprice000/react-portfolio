@@ -73,6 +73,46 @@ section div {
 /* FOR ALL SECTIONS STYLING END */
 
 
+
+/* ABOUT SECTION STYLING START */
+.about {
+  background-color: var(--third-color);
+}
+
+.about h2 {
+  text-align: center;
+  padding: 30px 0px;
+}
+
+#about-content {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.about p {
+  width: 50%;
+  line-height: 30px;
+  text-indent: 50px;
+}
+
+#developer {
+    background-image: url("../src/assets/images/Reagan.jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 5px solid var(--fifth-color);
+    border-radius: 25%;
+    width: 27%;
+    height: 350px;
+}
+
+
+
+/* ABOUT SECTION STYLING END */
+
+
+
+
 /* PORTFOLIO SECTION STYLING START */
 .portfolio {
   background-color: var(--third-color);
@@ -103,6 +143,8 @@ section div {
   align-items: center;
   justify-content: center;
   text-decoration: none;
+  transition-duration: 1s;
+  transition-delay: .5s;
 }
 
 .portfolio a div {

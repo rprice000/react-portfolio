@@ -22,11 +22,13 @@ const Projects = () => {
             <div>Project Refactor</div>
           </a>
 
-          <a href="" class="portfolio-item" id="future-project">
+          <a href="" className="portfolio-item" id="future-project">
             <div>Future Project A</div>
           </a>
         </div>
 
+        <br></br>
+        
         <div className="items">
           <a href="" className="portfolio-item" id="future-project">
             <div>Future Project B</div>
