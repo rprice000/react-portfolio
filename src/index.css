@@ -336,6 +336,9 @@ textarea {
   display: inline
 }
 
+.contact li {
+  list-style: none;
+}
 
 /* CONTACT SECTION STYLING END */
 
@@ -346,6 +349,14 @@ textarea {
 footer {
   background-color: var(--second-color);
   color: var(--fourth-color);
+  display: flex;
+  justify-content: center;
 }
 
+footer li {
+  list-style: none;
+  font-size: 75px;
+  padding: 10px;
+  color: var(--fourth-color);
+}
 /* FOOTER SECTION STYLING END */

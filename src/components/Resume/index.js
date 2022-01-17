@@ -5,7 +5,7 @@ const Resume = () => {
       <div className="resume">
         <h2>Resume of Reagan Price</h2>
 
-        <a href="/src/assets/Reagan Price Resume.pdf">For your own copy you can download my resume here!</a>
+        <a href="/src/assets/Reagan Price Resume.pdf">Click here to download full resume!</a>
         <br></br>
 
         <div id="resume-content">
