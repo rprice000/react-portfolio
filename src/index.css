@@ -34,6 +34,11 @@ code {
   color: var(--fourth-color);
 }
 
+#page-header ul a:active {
+  color: var(--fifth-color);
+  background-color: var(--fourth-color);
+}
+
 #page-header ul {
   list-style: none;
   display: flex;
@@ -306,6 +311,31 @@ textarea {
   display: flex;
   flex-direction: column;
 }
+
+#name-required { 
+  display: none; 
+}
+
+#name-field:hover + #name-required {
+  display: inline
+}
+
+#email-required { 
+  display: none; 
+}
+
+#email-field:hover + #email-required {
+  display: inline
+}
+
+#message-required { 
+  display: none; 
+}
+
+#message-field:hover + #message-required {
+  display: inline
+}
+
 
 /* CONTACT SECTION STYLING END */
 

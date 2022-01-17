@@ -49,8 +49,12 @@ const Contact = () => {
                 name="name"
                 defaultValue={name}
                 onBlur={handleChange}
+                id="name-field"
+                placeholder="Your Name"
               />
+              <span id="name-required">Name is required!</span>
             </div>
+
             <div>
               <label htmlFor="email">Email address:</label>
               <input
@@ -58,8 +62,12 @@ const Contact = () => {
                 name="email"
                 defaultValue={email}
                 onBlur={handleChange}
+                id="email-field"
+                placeholder="Your Email"
               />
+              <span id="email-required">Email is required!</span>
             </div>
+
             <div>
               <label htmlFor="message">Message:</label>
               <textarea
@@ -67,8 +75,12 @@ const Contact = () => {
                 rows="5"
                 defaultValue={message}
                 onBlur={handleChange}
+                id="message-field"
+                placeholder="Your Message"
               />
+              <span id="message-required">Message is required!</span>
             </div>
+
             {errorMessage && (
               <div>
                 <p className="error-text">{errorMessage}</p>
