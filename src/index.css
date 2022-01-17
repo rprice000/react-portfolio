@@ -48,35 +48,46 @@ ul {
 /* HEADER STYLING END */
 
 
-/* FOR ALL SECTIONS STYLING START */
-/* section {
-  padding: 50px 0;
+/* HERO SECTION STYLING START */
+.hero-section {
+  background-color: var(--third-color);
+}
+
+.hero {
+  padding: 100px 0px;
+  background-image: url("../src/assets/images/hero-image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
-  flex-direction: column;
+  align-items: center;
   justify-content: center;
 }
 
-section h2 {
+.hero div {
+  width: 40%;
+}
+
+.hero div h1 {
+  font-size: 50px;
   text-align: center;
-  text-shadow: 2px 2px var(--fifth-color);
+  text-shadow: 2px 2px var(--fourth-color);
 }
 
-section h2 {
-  padding: 30px 0px;
-}
 
-section div {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-} */
-/* FOR ALL SECTIONS STYLING END */
+
+#home-content p {
+  padding: 20px 20px 20px 30px;
+  line-height: 30px;
+  text-indent: 50px;
+}
+/* HERO SECTION STYLING END */
 
 
 
 /* ABOUT SECTION STYLING START */
 .about {
   background-color: var(--third-color);
+  padding-bottom: 30px;
 }
 
 .about h2 {
@@ -219,5 +230,15 @@ textarea {
 	padding: 5px;
 }
 
+#dev-info {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#dev-info ul {
+  display: flex;
+  flex-direction: column;
+}
 
 /* CONTACT SECTION STYLING END */

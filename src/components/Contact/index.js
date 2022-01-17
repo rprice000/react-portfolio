@@ -38,46 +38,76 @@ const Contact = () => {
 
 
     return (
-        <section className="contact" id="contact-section">
+      <section className="contact" id="contact-section">
         <h2>Contact me</h2>
         <div className="form-div">
-        <form id="contact-form" onSubmit={handleSubmit}>
-          <div>
-            <label htmlFor="name">Name:</label>
-            <input
-              type="text"
-              name="name"
-              defaultValue={name}
-              onBlur={handleChange}
-            />
-          </div>
-          <div>
-            <label htmlFor="email">Email address:</label>
-            <input
-              type="email"
-              name="email"
-              defaultValue={email}
-              onBlur={handleChange}
-            />
-          </div>
-          <div>
-            <label htmlFor="message">Message:</label>
-            <textarea
-              name="message"
-              rows="5"
-              defaultValue={message}
-              onBlur={handleChange}
-            />
-          </div>
-          {errorMessage && (
+          <form id="contact-form" onSubmit={handleSubmit}>
             <div>
-              <p className="error-text">{errorMessage}</p>
+              <label htmlFor="name">Name:</label>
+              <input
+                type="text"
+                name="name"
+                defaultValue={name}
+                onBlur={handleChange}
+              />
             </div>
-          )}
-          <button type="submit">Submit</button>
-        </form>
+            <div>
+              <label htmlFor="email">Email address:</label>
+              <input
+                type="email"
+                name="email"
+                defaultValue={email}
+                onBlur={handleChange}
+              />
+            </div>
+            <div>
+              <label htmlFor="message">Message:</label>
+              <textarea
+                name="message"
+                rows="5"
+                defaultValue={message}
+                onBlur={handleChange}
+              />
+            </div>
+            {errorMessage && (
+              <div>
+                <p className="error-text">{errorMessage}</p>
+              </div>
+            )}
+            <button type="submit">Submit</button>
+          </form>
         </div>
-      </section> 
+
+        <div id="dev-info">
+          <ul>
+            <li>
+              Email:{" "}
+              <a href="mailto: rtprice21@gmail.com">rtprice21@gmail.com</a>
+            </li>
+            <li>
+              Github:{" "}
+              <a href="https://github.com/rprice000/rprice000.git">
+                Reagan's GitHub
+              </a>
+            </li>
+            <li>
+              LinkedIn:{" "}
+              <a href="https://www.linkedin.com/in/reagan-price-967a25101/">
+                Reagan's LinkedIn
+              </a>
+            </li>
+          </ul>
+
+          <address>
+            55 Main Street <br />
+            Some Town, Ca <br />
+            12345
+            <br />
+            <a href="tel:123.456.7890">123.456.7890</a>
+            <br />
+          </address>
+        </div>
+      </section>
     );
 }
 
