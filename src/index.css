@@ -51,6 +51,7 @@ code {
   justify-content: space-around;
   background-color: var(--second-color);
   color: var(--fourth-color);
+  flex-wrap: wrap;
 }
 
 
@@ -82,13 +83,6 @@ code {
   text-shadow: 2px 2px var(--fourth-color);
 }
 
-
-
-#home-content p {
-  padding: 20px 20px 20px 30px;
-  line-height: 30px;
-  text-indent: 50px;
-}
 /* HERO SECTION STYLING END */
 
 
@@ -360,3 +354,35 @@ footer li {
   color: var(--fourth-color);
 }
 /* FOOTER SECTION STYLING END */
+
+
+@media screen and (max-width: 900px) {
+
+  #about-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.items {
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.items a {
+  margin: 20px;
+  width: 50%
+}
+
+.items a div {
+  padding: 25px 0;
+}
+
+#training-experience {
+  flex-wrap: wrap;
+}
+
+
+
+}

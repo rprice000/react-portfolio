@@ -11,8 +11,8 @@ const About = () => {
         <h2>About Me</h2>
 
         <div id="about-content">
-          <div id="developer"></div>
-
+          <img id="developer" />
+          
           <p>
             Hi my name is Reagan Price and I'm currently training to become a
             web developer. I have over 10 years of technology experince,
@@ -29,6 +29,7 @@ const About = () => {
             troubleshooting system hardware, software, networks and operating
             and technology management systems, and designing.
           </p>
+          
         </div>
       </div>
     );

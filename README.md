@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# Budget Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Project Title
+Budget Tracker
 
-In the project directory, you can run:
+## Description
+This application allows users to add expenses and deposits to their budget.  This application will work offoline.  If users submit transactions with no internet connection, those transactions will be saved and uploaded once a connectionn is made to the interenet.  
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Table of Contents
+* [Installation](#installation)
+* [Technologies](#technologies)
+* [Testing](#testing)
+* [Screenshots](#screenshots)
+* [Links](#links)
+* [Version](#version)
+* [Authors](#authors)
+* [License](#license)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
+- npm init
+- npm install express
+- npm install mongoose
 
-### `npm test`
+## Technologies
+- Express.js
+- MongoDB
+- Mongoose
+- Web Manifest
+- IndexDB
+- ServiceWorkers
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Testing
+There are not testing dependencies for this application
 
-### `npm run build`
+## Screenshots
+- All screenshots are located in the following folders.
+/public/images/..
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Links
+GitHub Repo
+https://github.com/rprice000/react-portfolio
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Heroku Link
+https://glacial-gorge-90101.herokuapp.com/
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Version
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- 1.0.0
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Authors
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- name: Reagan Price
+- github account: rprice000
+- email: rtprice21@gmail.com
+- phone: 123-456-7890
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## License
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- This project is licensed under the Rice University Software Developer Coding BootCamp.
