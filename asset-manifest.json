@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.b4df3a20.css",
+    "main.js": "/react-portfolio/static/js/main.c759a92a.js",
+    "static/media/search-engine-optimization.jpg": "/react-portfolio/static/media/search-engine-optimization.e0cd983ee0c1dd6db1fc.jpg",
+    "static/media/budgettracker.JPG": "/react-portfolio/static/media/budgettracker.4228353a107fdc9356ab.JPG",
+    "static/media/run-buddy-pic.JPG": "/react-portfolio/static/media/run-buddy-pic.c10ceeeb245e968b08f2.JPG",
+    "static/media/stargazing.JPG": "/react-portfolio/static/media/stargazing.1f96e60835d77dff51d5.JPG",
+    "static/media/hero-image.jpg": "/react-portfolio/static/media/hero-image.28d229866d47ba937473.jpg",
+    "static/media/techticket.JPG": "/react-portfolio/static/media/techticket.a911a1b0ca03ff9bcfae.JPG",
+    "static/media/notetaker.JPG": "/react-portfolio/static/media/notetaker.7ff645f504094e9e6aea.JPG",
+    "static/media/Reagan.jfif": "/react-portfolio/static/media/Reagan.a950cc70d1b3c513f073.jfif",
+    "index.html": "/react-portfolio/index.html",
+    "main.b4df3a20.css.map": "/react-portfolio/static/css/main.b4df3a20.css.map",
+    "main.c759a92a.js.map": "/react-portfolio/static/js/main.c759a92a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b4df3a20.css",
+    "static/js/main.c759a92a.js"
+  ]
+}
