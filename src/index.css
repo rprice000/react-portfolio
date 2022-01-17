@@ -188,11 +188,30 @@ code {
   background-size: contain;
 }
 
-#future-project {
-  background-image: url("../src/assets/images/under-construction.JPG");
+#stargazing {
+  background-image: url("../src/assets/images/stargazing.JPG");
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+#notetaker {
+  background-image: url("../src/assets/images/notetaker.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#techticket {
+  background-image: url("../src/assets/images/techticket.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#budgettracker {
+  background-image: url("../src/assets/images/budgettracker.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 /* PORTFOLIO SECTION STYLING END */
 
 /* RESUME SECTION STYLING START */
