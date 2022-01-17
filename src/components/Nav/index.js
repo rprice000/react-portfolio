@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../Header/index';
 
 function Nav(props) {
-    const tabs = ['Home', 'About', 'Projects', 'Resume', 'Contact'];
+    const tabs = [ 'About', 'Projects', 'Resume', 'Contact'];
 
     return (
       <div id="page-header">

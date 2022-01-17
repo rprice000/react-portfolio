@@ -3,14 +3,13 @@ import React, { useState } from 'react';
 
 
 import NavTabs from './index';
-import Home from '../Home';
 import About from '../About';
 import Projects from '../Projects';
 import Contact from '../Contact';
 import Resume from '../Resume'
 
 function NavigatePortfolio() {
-  const [currentPage, handlePageChange] = useState('Home');
+  const [currentPage, handlePageChange] = useState('About');
 
   const renderPage = () => {
     // Add a switch statement that will return the appropriate component of the 'currentPage'
@@ -20,7 +19,7 @@ function NavigatePortfolio() {
       case "Projects":   return  (<Projects />);
       case "Resume":  return  (<Resume />);
       case "Contact": return (<Contact />);
-      default:      return (<Home />)
+      default:      return (<About />)
    }
   };
 
