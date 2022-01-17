@@ -28,12 +28,13 @@ code {
 
 /* HEADER STYLING START */
 
-ul a {
+#page-header ul a {
   text-decoration: none;
   padding: 10px 15px;
+  color: var(--fourth-color);
 }
 
-ul {
+#page-header ul {
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -43,7 +44,10 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  background-color: var(--second-color);
+  color: var(--fourth-color);
 }
+
 
 /* HEADER STYLING END */
 
@@ -87,12 +91,12 @@ ul {
 /* ABOUT SECTION STYLING START */
 .about {
   background-color: var(--third-color);
-  padding-bottom: 30px;
+  padding: 50px 0;
 }
 
 .about h2 {
   text-align: center;
-  padding: 30px 0px;
+  padding: 10px 0px;
 }
 
 #about-content {
@@ -191,6 +195,49 @@ ul {
 }
 /* PORTFOLIO SECTION STYLING END */
 
+/* RESUME SECTION STYLING START */
+
+.resume {
+  background-color: var(--third-color);
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.resume h2 {
+  text-align: center;
+}
+
+.resume h3 {
+  text-decoration: underline;
+}
+#resume-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.resume a {
+  text-decoration: none;
+  padding-left: 40px;
+}
+
+.content-part {
+  display: flex;
+  flex-direction: row;
+}
+
+#training-experience {
+  padding-left: 40px;
+}
+
+#work-experience {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+}
+
+/* RESUME SECTION STYLING END */
 
 
 /* CONTACT SECTION STYLING START */
@@ -242,3 +289,14 @@ textarea {
 }
 
 /* CONTACT SECTION STYLING END */
+
+
+
+/* FOOTER SECTION STYLING START */
+
+footer {
+  background-color: var(--second-color);
+  color: var(--fourth-color);
+}
+
+/* FOOTER SECTION STYLING END */
