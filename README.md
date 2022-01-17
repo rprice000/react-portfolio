@@ -40,7 +40,7 @@ GitHub Repo
 https://github.com/rprice000/react-portfolio
 
 Deployed Github Page
-
+http://rprice000.github.io/react-portfolio
 
 
 
