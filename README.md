@@ -1,11 +1,11 @@
-# Budget Tracker
+# React Portfolio
 
 
 # Project Title
-Budget Tracker
+React Portfolio
 
 ## Description
-This application allows users to add expenses and deposits to their budget.  This application will work offoline.  If users submit transactions with no internet connection, those transactions will be saved and uploaded once a connectionn is made to the interenet.  
+This website was created to showcase Reagan Price's skill and knowledge with advanced HTML5 and CSS3 techniques with React.js.  This website presents the web developer's name, recent photo, and links to Reagan's resume, LinkdIn, and GitHub accounts as well as projects completed by the web developer. 
 
 
 ## Table of Contents
@@ -19,31 +19,29 @@ This application allows users to add expenses and deposits to their budget.  Thi
 * [License](#license)
 
 ## Installation
-- npm init
-- npm install express
-- npm install mongoose
+- npx create-react-app
+- npm install react-icons
 
 ## Technologies
-- Express.js
-- MongoDB
-- Mongoose
-- Web Manifest
-- IndexDB
-- ServiceWorkers
+- React.js
+- Node
+- HTML5
+- CSS
 
 ## Testing
 There are not testing dependencies for this application
 
 ## Screenshots
 - All screenshots are located in the following folders.
-/public/images/..
+/src/assets/images/..
 
 ## Links
 GitHub Repo
 https://github.com/rprice000/react-portfolio
 
-Heroku Link
-https://glacial-gorge-90101.herokuapp.com/
+Deployed Github Page
+
+
 
 
 ## Version
